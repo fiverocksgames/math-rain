@@ -307,18 +307,16 @@ class MathRainApp {
                 const text = (question || (answer !== undefined ? answer + ' = ?' : '문제')) + '';
                 element.textContent = text;
                 
-                element.style.position = 'absolute';
-                element.style.background = '#ffffff';
-                element.style.color = '#000000';
-                element.style.padding = '15px 25px';
-                element.style.borderRadius = '15px';
-                element.style.border = '2px solid #333333';
-                element.style.fontSize = '1.5em';
-                element.style.fontWeight = 'bold';
-                element.style.zIndex = '100';
-                element.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
-                element.style.whiteSpace = 'nowrap';
+                // Add three raindrop shape overlays
+                for (let i = 0; i < 3; i++) {
+                    const dropOverlay = document.createElement('div');
+                    dropOverlay.className = 'raindrop-shape';
+                    // Position them side-by-side
+                    dropOverlay.style.left = (25 + (i * 25)) + '%';
+                    element.appendChild(dropOverlay);
+                }
                 
+                element.style.position = 'absolute';
                 board.appendChild(element);
             }
 
@@ -329,13 +327,9 @@ class MathRainApp {
 
             // Apply warning style if close to bottom
             if (raindrop.y >= 70) {
-                element.style.background = '#ff6b6b';
-                element.style.color = '#ffffff';
-                element.style.border = '2px solid #cc0000';
+                element.classList.add('warning');
             } else {
-                element.style.background = '#ffffff';
-                element.style.color = '#000000';
-                element.style.border = '2px solid #333333';
+                element.classList.remove('warning');
             }
         });
 

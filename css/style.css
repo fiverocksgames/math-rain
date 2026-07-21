@@ -231,8 +231,27 @@ body {
     z-index: 100;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Added for proper absolute positioning of overlay */
 }
 
+/* Raindrop Overlay */
+.raindrop-shape {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    background: #add8e6;
+    /* Teardrop shape: top-left, top-right, bottom-right, bottom-left */
+    border-radius: 50% 50% 20% 50%;
+    /* Current was 45deg, adding 180deg = 225deg */
+    transform: translateX(-50%) rotate(225deg);
+    z-index: 99;
+    border: 2px solid #333;
+}
 
 .raindrop.warning {
     background: #ff6b6b;
