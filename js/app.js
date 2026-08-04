@@ -111,6 +111,7 @@ class MathRainApp {
 
         // Game controls
         this.elements.backToMenuBtn.addEventListener('click', () => {
+            this.stopGame();
             this.showScreen('setup');
         });
 
@@ -130,6 +131,7 @@ class MathRainApp {
         });
 
         this.elements.backToMenuResultBtn.addEventListener('click', () => {
+            this.stopGame();
             this.showScreen('setup');
         });
     }
@@ -166,17 +168,25 @@ class MathRainApp {
     }
 
     /**
-     * Start the game
+     * Stop the current game and animation loop
      */
-    startGame() {
-        // Stop any existing game and animation first
+    stopGame() {
         if (this.animationFrame) {
             cancelAnimationFrame(this.animationFrame);
             this.animationFrame = null;
         }
         if (this.game) {
             this.game.stop();
+            this.game = null;
         }
+    }
+
+    /**
+     * Start the game
+     */
+    startGame() {
+        // Stop any existing game and animation first
+        this.stopGame();
 
         // Clean up
         this.elements.gameBoard.innerHTML = '';
@@ -242,7 +252,7 @@ class MathRainApp {
      * Animation loop
      */
     animate(currentTime = 0) {
-        if (!this.game) return;
+        if (!this.game || this.game.isGameOver) return;
 
         // Ensure we don't have a huge jump from 0
         if (this.lastTime === 0 || currentTime < this.lastTime) {

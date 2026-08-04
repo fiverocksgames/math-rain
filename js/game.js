@@ -414,7 +414,7 @@ class MathRainGame {
      * Handle raindrop reaching bottom (missed)
      */
     raindropMissed(raindrop) {
-        if (raindrop.solved) return;
+        if (this.isGameOver || raindrop.solved) return;
 
         this.lives--;
         this.combo = 0;
@@ -552,6 +552,7 @@ class MathRainGame {
      * Stop the game
      */
     stop() {
+        this.isGameOver = true;
         if (this.gameInterval) {
             clearInterval(this.gameInterval);
             this.gameInterval = null;
