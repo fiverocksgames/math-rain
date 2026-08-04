@@ -122,15 +122,33 @@ class MathRainGame {
                 question = `${num1} - ${num2} = ?`;
                 break;
             case 'mul':
-                num1 = this.randomInt(1, 9);
-                num2 = this.randomInt(1, 9);
+                if (this.digits === '2') {
+                    num1 = this.randomInt(10, 99);
+                    num2 = this.randomInt(2, 9);
+                } else if (this.digits === '3') {
+                    num1 = this.randomInt(10, 99);
+                    num2 = this.randomInt(10, 99);
+                } else {
+                    num1 = this.randomInt(1, 9);
+                    num2 = this.randomInt(1, 9);
+                }
                 answer = num1 * num2;
                 question = `${num1} × ${num2} = ?`;
                 break;
             case 'div':
-                num2 = this.randomInt(1, 9);
-                answer = this.randomInt(1, 9);
-                num1 = num2 * answer;
+                if (this.digits === '2') {
+                    num2 = this.randomInt(2, 9);
+                    answer = this.randomInt(2, Math.floor(99 / num2));
+                    num1 = num2 * answer;
+                } else if (this.digits === '3') {
+                    num2 = this.randomInt(10, 99);
+                    answer = this.randomInt(2, 9);
+                    num1 = num2 * answer;
+                } else {
+                    num2 = this.randomInt(1, 9);
+                    answer = this.randomInt(1, 9);
+                    num1 = num2 * answer;
+                }
                 question = `${num1} ÷ ${num2} = ?`;
                 break;
             default:

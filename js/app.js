@@ -50,6 +50,7 @@ class MathRainApp {
         this.selectedLevel = 3;
         this.selectedOperation = 'mixed';
         this.selectedDifficulty = 'normal';
+        this.selectedDigits = '1';
 
         this.init();
     }
@@ -188,7 +189,8 @@ class MathRainApp {
         this.game = new MathRainGame({
             level: this.selectedLevel,
             operation: this.selectedOperation,
-            difficulty: this.selectedDifficulty
+            difficulty: this.selectedDifficulty,
+            digits: this.selectedDigits
         });
 
         // Setup callbacks
