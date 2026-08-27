@@ -1,7 +1,7 @@
 // Math Rain - Service Worker
 // Enables offline play and PWA functionality
 
-const CACHE_NAME = 'math-rain-v1.0';
+const CACHE_NAME = 'math-rain-v1.1';
 const urlsToCache = [
   './',
   './index.html',
@@ -13,6 +13,8 @@ const urlsToCache = [
 
 // Install event - cache resources
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
+    self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
@@ -38,6 +40,7 @@ self.addEventListener('fetch', (event) => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
+    event.waitUntil(self.clients.claim());
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
