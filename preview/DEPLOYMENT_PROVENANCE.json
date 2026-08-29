@@ -1,40 +1,32 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "7a1a47b2ffc8b77e56d54e0027a2fd8353a57026",
+    "sourceSha":  "f24bc2ed234fe641f91a8b198e571333e4c51a36",
     "workflowName":  "Source CI",
-    "workflowRunId":  "33231721903",
-    "runnerName":  "FRD-DESKTOP-01",
-    "createdAt":  "2026-08-29T03:34:39.0332382Z",
-    "toolchain":  "static-web",
+    "workflowRunId":  "33232573317",
+    "runnerName":  "FRD-LAPTOP-01",
+    "createdAt":  "2026-08-29T03:56:33.7666355Z",
+    "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "css/mobile-viewport.css",
-                      "sha256":  "57a74da3aa1a99db849343988b38777d0fad24ae08c472a00cf5b9c730961948"
+                      "path":  "assets/index-CLW9-Ixl.js",
+                      "sha256":  "7ad8bbce29aa7599b7b92a51904c52b14a2ae0e9cb126c939af6f2e1be080d63"
                   },
                   {
-                      "path":  "css/style.css",
-                      "sha256":  "0c2eddf7d01e0ebd6ab511f49021fd49b3ffdce308af5ef5bda664c39d107b11"
+                      "path":  "assets/index-DZr6Pt1f.css",
+                      "sha256":  "802c381de4808d1d853636d05b07e484a6772218846c99655ac73ee52a739279"
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "30863f26f163a5c4cd8d7fa21706e13d5a21b2b0483739ea9e918bfd2d529924"
-                  },
-                  {
-                      "path":  "js/app.js",
-                      "sha256":  "0eea3403001cfbaeded87fe1b51859f1b8dd4b36ca453e96bb3f5f28a69e6236"
-                  },
-                  {
-                      "path":  "js/game.js",
-                      "sha256":  "73a84dca89fa20420bbb7da9d866837df4dd9b5b54ad1a624cb1b179358b7af2"
+                      "sha256":  "51c3f9ca10b9edfd6e7f8718d2c4bc273d3287e49789e8d491c788e6f4c86c20"
                   },
                   {
                       "path":  "manifest.json",
-                      "sha256":  "c6824832ddf7f0f5b4986551d8f3562d6bc46164bf1218cad5bcee0b31255103"
+                      "sha256":  "625b90f93ee4e248ecfdd235428333e0a46f8888dd86954bf08d6c3e646a35e0"
                   },
                   {
                       "path":  "sw.js",
-                      "sha256":  "69c46c458b46df51a2f8089b2a39acb6ad0eb429c9f091881270dd52ddc7d6bb"
+                      "sha256":  "a77ab359ef0aba876d24000a7eac2b7539eeb45625a4229028d63774dce4d50b"
                   }
               ]
 }
