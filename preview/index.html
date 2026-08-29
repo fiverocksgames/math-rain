@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#4a90e2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Math Rain">
+    <link rel="manifest" href="manifest.json">
+    <title>Math Rain - ?섑븰 鍮쀫갑??寃뚯엫</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-viewport.css">
+<script>window.__MATH_RAIN_RELEASE__ = {"sourceSha":"a301dd39adcba6b3975f1cd2313a5d368fe27c20"};</script>
+</head>
+<body>
+    <div id="app">
+        <!-- Setup Screen -->
+        <div id="setup-screen" class="screen active">
+            <div class="language-selector">
+                <button id="language-trigger" type="button" class="language-trigger" aria-label="?몄뼱" aria-expanded="false" aria-haspopup="listbox">?눖?눟</button>
+                <div id="language-menu" class="language-menu" role="listbox" aria-label="?몄뼱" hidden>
+                    <button type="button" role="option" data-language="ko" aria-selected="true"><span aria-hidden="true">?눖?눟</span><span>?쒓뎅??/span></button>
+                    <button type="button" role="option" data-language="en" aria-selected="false"><span aria-hidden="true">?눣?눡</span><span>English</span></button>
+                </div>
+            </div>
+            <h1>?뙢截?Math Rain</h1>
+            <p id="subtitle" class="subtitle">?섑븰 臾몄젣 鍮쀫갑??寃뚯엫</p>
+
+            <div class="setup-container">
+                <div class="setup-group">
+                    <label id="level-label">?덈꺼 ?좏깮</label>
+                    <div class="level-selector">
+                        <button class="level-btn" data-level="1">1</button>
+                        <button class="level-btn" data-level="2">2</button>
+                        <button class="level-btn selected" data-level="3">3</button>
+                        <button class="level-btn" data-level="4">4</button>
+                        <button class="level-btn" data-level="5">5</button>
+                        <button class="level-btn" data-level="6">6</button>
+                        <button class="level-btn" data-level="7">7</button>
+                        <button class="level-btn" data-level="8">8</button>
+                        <button class="level-btn" data-level="9">9</button>
+                        <button class="level-btn" data-level="10">10</button>
+                    </div>
+                    <p class="level-info" id="level-info">?덈꺼 3: ?숈떆 鍮쀫갑??3媛?/p>
+                </div>
+
+                <div class="setup-group">
+                    <label id="operation-label">?곗궛 ?좏깮</label>
+                    <div class="btn-group" id="operation-select">
+                        <button class="btn-option" data-value="add">???㏃뀍</button>
+                        <button class="btn-option" data-value="sub">??類꾩뀍</button>
+                        <button class="btn-option" data-value="mul">?뽳툘 怨깆뀍</button>
+                        <button class="btn-option" data-value="div">???섎닓??/button>
+                        <button class="btn-option selected" data-value="mixed">?? ?쇳빀</button>
+                    </div>
+                </div>
+
+                <div class="setup-group">
+                    <label id="difficulty-label">?쒖씠??/label>
+                    <div class="btn-group" id="difficulty-select">
+                        <button class="btn-option" data-value="easy">Easy</button>
+                        <button class="btn-option selected" data-value="normal">Normal</button>
+                        <button class="btn-option" data-value="hard">Hard</button>
+                    </div>
+                </div>
+
+                <div class="setup-group">
+                    <label id="digit-label">?먮┸???좏깮</label>
+                    <div class="btn-group" id="digit-select">
+                        <button class="btn-option selected" data-value="1">1?먮━ + 1?먮━</button>
+                        <button class="btn-option" data-value="2">2?먮━ + 1?먮━</button>
+                        <button class="btn-option" data-value="3">2?먮━ + 2?먮━</button>
+                    </div>
+                </div>
+
+                <button id="start-game" class="btn-start">寃뚯엫 ?쒖옉</button>
+                <button id="share-page" type="button" class="btn-share">?뵕 ?섏씠吏 怨듭쑀</button>
+                <p id="share-page-status" class="share-status" role="status" aria-live="polite"></p>
+                <a class="game-hub-link" href="https://fiverocksgames.github.io/game-hub/">?렜 Game Hub</a>
+                <p id="build-label" class="build-label">Build local</p>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="game-info">
+                    <div class="info-item">
+                        <span id="game-difficulty-label" class="info-label">?쒖씠??/span>
+                        <span class="info-value" id="difficulty-display">Normal</span>
+                    </div>
+                    <div class="info-item">
+                        <span id="game-level-label" class="info-label">?덈꺼</span>
+                        <span class="info-value" id="level-display">1</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="hearts" id="lives-display">?ㅿ툘?ㅿ툘?ㅿ툘</span>
+                    </div>
+                    <div class="info-item">
+                        <span id="game-score-label" class="info-label">?먯닔</span>
+                        <span class="info-value" id="score-display">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span id="game-progress-label" class="info-label">吏꾪뻾</span>
+                        <span class="info-value" id="progress-display">0/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-board-container">
+                <div class="game-board" id="game-board"></div>
+            </div>
+
+            <div class="cards-container" id="cards-container"></div>
+
+            <div class="game-footer">
+                <button id="back-to-menu" class="btn-secondary">硫붾돱濡?/button>
+                <button id="restart-game" class="btn-secondary">?ㅼ떆 ?쒖옉</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div class="result-container">
+                <h2 id="result-title">?럦 ?덈꺼 ?대━??</h2>
+                <div class="result-stats">
+                    <div class="stat-item">
+                        <span id="final-score-label" class="stat-label">理쒖쥌 ?먯닔</span>
+                        <span class="stat-value" id="final-score">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span id="final-level-label" class="stat-label">?꾨떖 ?덈꺼</span>
+                        <span class="stat-value" id="final-level">1</span>
+                    </div>
+                    <div class="stat-item">
+                        <span id="accuracy-label" class="stat-label">?뺥솗??/span>
+                        <span class="stat-value" id="accuracy">0%</span>
+                    </div>
+                </div>
+                <div class="result-buttons">
+                    <button id="next-level" class="btn-start">?ㅼ쓬 ?덈꺼</button>
+                    <button id="share-result" type="button" class="btn-share">?뱾 寃곌낵 怨듭쑀</button>
+                    <p id="share-result-status" class="share-status" role="status" aria-live="polite"></p>
+                    <button id="play-again" class="btn-secondary">媛숈? ?덈꺼</button>
+                    <button id="back-to-menu-result" class="btn-secondary">硫붾돱濡?/button>
+                </div>
+            </div>
+        </div>
+</div>
+
+    <script src="js/game.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
