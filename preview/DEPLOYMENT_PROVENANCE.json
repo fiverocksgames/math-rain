@@ -1,16 +1,16 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "c7e313fe92f8202fc54be6450557862633d12c41",
+    "sourceSha":  "3ce6f26cf368e3f56d8910b4936750a5354cb292",
     "workflowName":  "Source CI",
-    "workflowRunId":  "33243176949",
-    "runnerName":  "FRD-LAPTOP-01",
-    "createdAt":  "2026-08-29T08:27:54.4904775Z",
+    "workflowRunId":  "33247754587",
+    "runnerName":  "FRD-DESKTOP-01",
+    "createdAt":  "2026-08-29T10:25:55.8642712Z",
     "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "assets/index-BO231R4z.js",
-                      "sha256":  "49e0c6c4a634a5334fe0e1cfab248ae575c2c6d63d065e101b01a18d0c50c992"
+                      "path":  "assets/index-5X-inS_L.js",
+                      "sha256":  "ade0479c983f3586547e4a25c3741821f9d8ac9cee927f7295bd1effb39d1aae"
                   },
                   {
                       "path":  "assets/index-CZ8TW2y-.css",
@@ -18,7 +18,7 @@
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "44037edd9bf57a5b6a8ccd24ea1f5ca7f592cc5cb6b1ab5014506826a3744a8d"
+                      "sha256":  "f45ded4a6a71f8c7dfe3ca280d5bfdac55d176d3d5037ed694754387516ac7b5"
                   },
                   {
                       "path":  "manifest.json",
