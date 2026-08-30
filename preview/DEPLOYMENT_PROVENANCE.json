@@ -1,28 +1,36 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "adbe1ea3565d9d323b9f12fbfb6f584dc26c6c25",
+    "sourceSha":  "099cd82b0172ccb76433c991ce4769e12b91b655",
     "workflowName":  "Source CI",
-    "workflowRunId":  "33255340653",
-    "runnerName":  "FRD-LAPTOP-01",
-    "createdAt":  "2026-08-29T13:35:54.9570890Z",
+    "workflowRunId":  "33292897392",
+    "runnerName":  "FRD-DESKTOP-01",
+    "createdAt":  "2026-08-30T04:38:54.8453544Z",
     "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "assets/index-DVEBBdOF.js",
-                      "sha256":  "930ce2fde687219e148a216b98007ba22704ee1f530593f6185acc525525e452"
+                      "path":  "assets/index-D2uQnSCu.css",
+                      "sha256":  "e6ecc26ce2aae59211613be528529fb4715b8885e5bb61498a75fae8b063aedc"
                   },
                   {
-                      "path":  "assets/index-gzuTyALq.css",
-                      "sha256":  "a0951af39df85cf14d40dc032d0b24905f8ad9e7507f9ac8ef871d14b62e4ae0"
+                      "path":  "assets/index-D8hm7dhF.js",
+                      "sha256":  "991ac70b034239b0f2b396966435e91949c6293222246f3f3516f2ba686538ed"
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "301e4c79314e3b74c6772282d38bdcd8822af65b200e9eca706e17051ffe0db6"
+                      "sha256":  "021dfe301235bd1a634d4aabfd40fa5d63068da1c700bb2d692dcceb78f2ed44"
                   },
                   {
                       "path":  "manifest.json",
                       "sha256":  "625b90f93ee4e248ecfdd235428333e0a46f8888dd86954bf08d6c3e646a35e0"
+                  },
+                  {
+                      "path":  "og/math-rain-share.jpg",
+                      "sha256":  "ecd21f517a95bb9faab35118a0e4b8261b0031a2794ada9116ba6f8f1aa9a136"
+                  },
+                  {
+                      "path":  "og/math-rain-share-v3.jpg",
+                      "sha256":  "3e9b006ac9d578a0784a00a6238fbf43b680a705d3840e183168d3493d72648e"
                   },
                   {
                       "path":  "sw.js",
