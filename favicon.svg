@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Math Rain favicon">
+  <defs>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7FE4FF"/>
+      <stop offset="1" stop-color="#2F80ED"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6B63"/>
+      <stop offset="1" stop-color="#FF4B3E"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE56B"/>
+      <stop offset="1" stop-color="#FFC928"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B9E85A"/>
+      <stop offset="1" stop-color="#8CC63F"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D78AE4"/>
+      <stop offset="1" stop-color="#B45AC9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- compact cloud -->
+  <path d="M15 26c-5.5 0-10-4-10-9s4-9 9-9c2.2 0 4.2.7 5.8 2C22 5 26.8 2 32.5 2 39.6 2 45.4 6.7 46.7 13 48.2 12.3 50 12 52 12c4.9 0 8 3.3 8 7.4 0 4.4-3.5 6.6-8.3 6.6H15z" fill="url(#cloud)" stroke="#1764C0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M17 10c5-3 10-4 15-3" fill="none" stroke="#FFF" stroke-opacity=".45" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- raindrops -->
+  <g stroke-width="1.5" stroke-linejoin="round">
+    <path d="M15 31c0 0-6 7.2-6 12a6 6 0 0 0 12 0c0-4.8-6-12-6-12z" fill="url(#red)" stroke="#D9322A"/>
+    <path d="M28 30c0 0-6.2 7.5-6.2 12.6a6.2 6.2 0 1 0 12.4 0C34.2 37.5 28 30 28 30z" fill="url(#yellow)" stroke="#E29A00"/>
+    <path d="M41 31c0 0-6 7.2-6 12a6 6 0 0 0 12 0c0-4.8-6-12-6-12z" fill="url(#green)" stroke="#5E9A24"/>
+    <path d="M53 30c0 0-5.6 6.8-5.6 11.3a5.6 5.6 0 1 0 11.2 0C58.6 36.8 53 30 53 30z" fill="url(#purple)" stroke="#843E98"/>
+  </g>
+
+  <!-- math symbols, deliberately chunky for favicon sizes -->
+  <g fill="#FFF">
+    <rect x="11" y="41" width="8" height="3.2" rx="1.6"/>
+    <rect x="13.4" y="38.6" width="3.2" height="8" rx="1.6"/>
+
+    <rect x="24" y="41" width="8" height="3.2" rx="1.6"/>
+
+    <rect x="39.4" y="38.6" width="3.2" height="8" rx="1.6" transform="rotate(45 41 42.6)"/>
+    <rect x="39.4" y="38.6" width="3.2" height="8" rx="1.6" transform="rotate(-45 41 42.6)"/>
+
+    <rect x="49" y="40.8" width="8" height="3" rx="1.5"/>
+    <circle cx="53" cy="38.5" r="1.4"/>
+    <circle cx="53" cy="46.1" r="1.4"/>
+  </g>
+</svg>
