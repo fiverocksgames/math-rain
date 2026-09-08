@@ -1,28 +1,28 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "099cd82b0172ccb76433c991ce4769e12b91b655",
-    "releaseVersion":  "v1.1.0",
+    "sourceSha":  "af593fcff09f4d1b060db338f52c28b344b866be",
+    "releaseVersion":  "v1.1.1",
     "deploymentChannel":  "formal",
     "workflowName":  "Publish Formal Release",
-    "workflowRunId":  "33309737685",
-    "createdAt":  "2026-08-30T11:48:17.2740134Z",
+    "workflowRunId":  "34222696948",
+    "createdAt":  "2026-09-08T11:52:05.8569933Z",
     "files":  [
                   {
                       "path":  ".nojekyll",
                       "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
                   },
                   {
-                      "path":  "assets/index-CWyVYbPR.js",
-                      "sha256":  "f40c9d02ca5c7c97554da533ca04fc21f31b781da34928dd0e0d61365d43159d"
+                      "path":  "assets/index-C2JGb00x.css",
+                      "sha256":  "39685d3d73192eb97b304d42982ca427420325a71ee1fa0983270060dd8bae44"
                   },
                   {
-                      "path":  "assets/index-D2uQnSCu.css",
-                      "sha256":  "e6ecc26ce2aae59211613be528529fb4715b8885e5bb61498a75fae8b063aedc"
+                      "path":  "assets/index-PUq-W9-4.js",
+                      "sha256":  "171ce1197b30a38f598a30e05acfdfdaf799aab607048c82c5e6874f971db3f5"
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "dd3b05f8bee6a3fcb428f16c402aa2c23a0ffd91d855410bc4c9800290104471"
+                      "sha256":  "fb68a657339a9a2791e6e860e0649204d17682fdc285fa24f266795da8001040"
                   },
                   {
                       "path":  "manifest.json",
