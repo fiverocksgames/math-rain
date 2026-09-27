@@ -1,0 +1,40 @@
+﻿{
+    "schemaVersion":  1,
+    "sourceRepository":  "fiverocks-dev/math-rain",
+    "sourceSha":  "3a7c80fda4ddb9ec144ce466bc36db556608801f",
+    "workflowName":  "Source CI",
+    "workflowRunId":  "36301358617",
+    "runnerName":  "FRD-LAPTOP-01",
+    "createdAt":  "2026-09-27T06:53:06.5773145Z",
+    "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
+    "files":  [
+                  {
+                      "path":  "assets/index-BsnK3o_G.js",
+                      "sha256":  "b52ab0fd8b19884240069dd531b7d71371a9e37cf0446a8e82d1bbcb68f45dd6"
+                  },
+                  {
+                      "path":  "assets/index-C2JGb00x.css",
+                      "sha256":  "39685d3d73192eb97b304d42982ca427420325a71ee1fa0983270060dd8bae44"
+                  },
+                  {
+                      "path":  "index.html",
+                      "sha256":  "d36b6f5dbcf63c0853a9715f022e47e64910d16b701a42f19ffb0ba4dc1adb97"
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "sha256":  "625b90f93ee4e248ecfdd235428333e0a46f8888dd86954bf08d6c3e646a35e0"
+                  },
+                  {
+                      "path":  "og/math-rain-share.jpg",
+                      "sha256":  "ecd21f517a95bb9faab35118a0e4b8261b0031a2794ada9116ba6f8f1aa9a136"
+                  },
+                  {
+                      "path":  "og/math-rain-share-v3.jpg",
+                      "sha256":  "3e9b006ac9d578a0784a00a6238fbf43b680a705d3840e183168d3493d72648e"
+                  },
+                  {
+                      "path":  "sw.js",
+                      "sha256":  "a77ab359ef0aba876d24000a7eac2b7539eeb45625a4229028d63774dce4d50b"
+                  }
+              ]
+}
