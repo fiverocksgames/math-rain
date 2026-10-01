@@ -1,0 +1,84 @@
+﻿{
+    "schemaVersion":  1,
+    "sourceRepository":  "fiverocks-dev/math-rain",
+    "sourceSha":  "64a49c78addc2cbbc142b07c1affbf51bd8a7f81",
+    "workflowName":  "Source CI",
+    "workflowRunId":  "36874764643",
+    "runnerName":  "FRD-LAPTOP-01",
+    "createdAt":  "2026-10-01T14:15:25.5268327Z",
+    "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
+    "files":  [
+                  {
+                      "path":  "assets/index-D6s6N_Cf.js",
+                      "sha256":  "b3b91ec585b7929f9dccf86bee2b39349d920194dcb137ae306c7331853ba661"
+                  },
+                  {
+                      "path":  "assets/index-y6aC2IDc.css",
+                      "sha256":  "22acb55c689ad710f3d605e275fa660d42d388d6e7b90a8dbd5d873977165666"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-1.ogg",
+                      "sha256":  "41bce5a6a169ba846055c239387c7c3aef54ee58e1b2fa3e2931d82481e4ef00"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-2.ogg",
+                      "sha256":  "1f297246c66b20ab3f5cefe383e47b66cc77d3ae1bdc3f1084c6e79d5dc6e0c3"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-3.ogg",
+                      "sha256":  "eae2d89bcb7c4c69272649059d8ee7ed14ced85a02acb35124afe2652c82717b"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-4.ogg",
+                      "sha256":  "93723d0710b8a8b8b451f742789ad6d7718f7382c46c566be9701507a04a4cad"
+                  },
+                  {
+                      "path":  "audio/sfx/game-over.ogg",
+                      "sha256":  "59dc60230fd20db8732043fc270143c7e6e3f38919fd3d580222afe4d9aab53e"
+                  },
+                  {
+                      "path":  "audio/sfx/item-use.ogg",
+                      "sha256":  "d94232678ea9835348122293a5a887f1822391c41b1edc5bac549b628dca1070"
+                  },
+                  {
+                      "path":  "audio/sfx/level-clear.ogg",
+                      "sha256":  "4262810ba6c4f899d7d9c3e73bec2242cef1813527230590479014b58e7b87b9"
+                  },
+                  {
+                      "path":  "audio/sfx/life-lost.ogg",
+                      "sha256":  "1afec94198a7bae389484ab75f1302bedce660f9a8a1e6ac0b3ad531763cb448"
+                  },
+                  {
+                      "path":  "audio/sfx/SOURCES.md",
+                      "sha256":  "dfa59591fc2fc3e76f8739fe4a99736df6e88287aae3c2508197d0cd2fc593ce"
+                  },
+                  {
+                      "path":  "audio/sfx/stage-start.ogg",
+                      "sha256":  "2418b9718290f9892ace75b1f389d7b997e024d24cdfe5183a505213145c4550"
+                  },
+                  {
+                      "path":  "audio/sfx/wrong.ogg",
+                      "sha256":  "66ec8aa107d564b1e245e7cf314767fbca78ff8b3328a8cdbd7c01f214036f3f"
+                  },
+                  {
+                      "path":  "index.html",
+                      "sha256":  "4f9efade3dcb09f9354750ab21a1c4cca922b04de1a2f2815c404b83650a0593"
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "sha256":  "625b90f93ee4e248ecfdd235428333e0a46f8888dd86954bf08d6c3e646a35e0"
+                  },
+                  {
+                      "path":  "og/math-rain-share.jpg",
+                      "sha256":  "ecd21f517a95bb9faab35118a0e4b8261b0031a2794ada9116ba6f8f1aa9a136"
+                  },
+                  {
+                      "path":  "og/math-rain-share-v3.jpg",
+                      "sha256":  "3e9b006ac9d578a0784a00a6238fbf43b680a705d3840e183168d3493d72648e"
+                  },
+                  {
+                      "path":  "sw.js",
+                      "sha256":  "a77ab359ef0aba876d24000a7eac2b7539eeb45625a4229028d63774dce4d50b"
+                  }
+              ]
+}
