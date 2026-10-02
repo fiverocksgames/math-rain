@@ -1,16 +1,16 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "64a49c78addc2cbbc142b07c1affbf51bd8a7f81",
+    "sourceSha":  "9ac8230dc56f96cc7652efb1d4f9c2c6a80f2b92",
     "workflowName":  "Source CI",
-    "workflowRunId":  "36874764643",
+    "workflowRunId":  "36949928655",
     "runnerName":  "FRD-LAPTOP-01",
-    "createdAt":  "2026-10-01T14:15:25.5268327Z",
+    "createdAt":  "2026-10-02T01:15:41.4013410Z",
     "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "assets/index-D6s6N_Cf.js",
-                      "sha256":  "b3b91ec585b7929f9dccf86bee2b39349d920194dcb137ae306c7331853ba661"
+                      "path":  "assets/index-ByW3kro-.js",
+                      "sha256":  "83e6a297b8e6c8361d4fbf22aee98f9426f09d69c03f7064015493636cc10333"
                   },
                   {
                       "path":  "assets/index-y6aC2IDc.css",
@@ -50,7 +50,7 @@
                   },
                   {
                       "path":  "audio/sfx/SOURCES.md",
-                      "sha256":  "dfa59591fc2fc3e76f8739fe4a99736df6e88287aae3c2508197d0cd2fc593ce"
+                      "sha256":  "4faec7cf23ba5c2dd5e2518b46b6ba635666806c9741548e7567f16b4279e4b4"
                   },
                   {
                       "path":  "audio/sfx/stage-start.ogg",
@@ -61,8 +61,60 @@
                       "sha256":  "66ec8aa107d564b1e245e7cf314767fbca78ff8b3328a8cdbd7c01f214036f3f"
                   },
                   {
+                      "path":  "auditions/ui-clicks/audio/click01.ogg",
+                      "sha256":  "f4cf2d44fd100ea133a9722b8ad6b3ca79fb1d29871eeb0c4227802260578275"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click02.ogg",
+                      "sha256":  "80d86dcd168fc918767757247c88f75911c931b5b870baadb340637f9efcb412"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click03.ogg",
+                      "sha256":  "af5d376c1cfc86b7e544d38c98487076d1928000c445db2576761e44706014f4"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click04.ogg",
+                      "sha256":  "4c5bbdaf5766c3516aa0e65eeb4668d1c6f7135ccc0f79b89ab52faa2359996f"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click05.ogg",
+                      "sha256":  "adf82cefa1e1ec2d5ac2a761da2427f92e5d3fb5c2e758bc09715c408d70da53"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click06.ogg",
+                      "sha256":  "c7cf5d1702ac92bc7778d289d271a53500359473b92dfa19f65c57e67cdee90b"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click07.ogg",
+                      "sha256":  "2778b8c63a6140bd73429b97fce5d7a7d80a0f8de8249c14c3a891f08f0f5c93"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click08.ogg",
+                      "sha256":  "2c0fc338393067108804d43468c2536897f2603173f1e2f22c74b9d912d76e3f"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click09.ogg",
+                      "sha256":  "520da5382bd99435c63e36a9d8d459d66f5cb561f6e68eefa1275a14012acfbc"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click10.ogg",
+                      "sha256":  "4f6ccb73b3acf91e13aaccfa0b098d11155ae816fec0b704e5820ce05c88eb42"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click11.ogg",
+                      "sha256":  "1c1ac515bb700fc9aae81e5520114bd595b359a7f0af505a9b4e1896e87287d1"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/audio/click12.ogg",
+                      "sha256":  "6f45c679354912afeb612d672c1ee4c32e1bff8b193304d9eb935dfa64309345"
+                  },
+                  {
+                      "path":  "auditions/ui-clicks/index.html",
+                      "sha256":  "d2826069f9a1a83c614962f138849d21e371897f9820aea3914f8f9e084f151c"
+                  },
+                  {
                       "path":  "index.html",
-                      "sha256":  "4f9efade3dcb09f9354750ab21a1c4cca922b04de1a2f2815c404b83650a0593"
+                      "sha256":  "ad36d175277fc7ccfea893b379346ea938b4eb8d34d176d6f5892701523b8bbb"
                   },
                   {
                       "path":  "manifest.json",

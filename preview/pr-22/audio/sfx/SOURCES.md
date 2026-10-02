@@ -64,3 +64,16 @@ When lives reach zero, `life-lost` is intentionally suppressed and `game-over` o
 
 - synchronized base commit: `791d43b9b00c475ea16e78f9fa41e906f15dec20`
 - final PR branch preserves the wrong-answer card shuffle changes from main together with the SFX integration.
+
+
+## Temporary UI click audition
+
+- purpose: compare general UI button click candidates before product selection
+- source repository: `fiverocks-dev/assets`
+- source branch head: `23878da897c712f3d4dff164c26b0c697b56b6c1`
+- source artifact: `math-rain-ui-click-audition-v1` / artifact `11203108611`
+- source artifact SHA-256: `d6dc74f69c068ac4c89207cea85c0e18d10423fc5bd88a9542f8fd41f7e822a2`
+- verified ingress run: `36949752822`
+- destination: `public/auditions/ui-clicks/`
+- contents: audition HTML + 12 OGG derivatives only; no original WAV files
+- lifecycle: temporary; remove after the UI click sound is selected and integrated

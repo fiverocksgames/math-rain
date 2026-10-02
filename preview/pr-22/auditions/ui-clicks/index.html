@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Math Rain UI Click SFX Audition</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172033;background:#f4f7fb}
+*{box-sizing:border-box}
+body{margin:0}
+main{max-width:1000px;margin:auto;padding:28px 18px 56px}
+h1{margin:0 0 8px;font-size:30px}
+.lead{margin:0 0 18px;color:#667085;line-height:1.6}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+button{font:inherit;cursor:pointer}
+.stop{border:0;border-radius:10px;background:#20263b;color:#fff;padding:9px 13px}
+.group{background:#fff;border-radius:16px;padding:16px;margin:14px 0;box-shadow:0 6px 20px #1f293710}
+.group h2{font-size:18px;margin:0 0 4px}
+.note{margin:0 0 12px;color:#7a8495;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.cand{border:1px solid #dce3ed;border-radius:12px;padding:12px;background:#fff}
+.cand.selected{outline:2px solid #667eea;border-color:transparent}
+.title{font-weight:700}
+.file{display:block;margin-top:4px;color:#7b8494;font-size:12px;word-break:break-word}
+.actions{display:flex;gap:8px;margin-top:10px}
+.play,.pick{border:0;border-radius:9px;padding:8px 10px}
+.play{background:#667eea;color:#fff}
+.pick{background:#eef1f7;color:#25324a}
+.summary{margin-top:18px;padding:14px;border-radius:12px;background:#edf2ff;color:#34405a}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<h1>Math Rain · 일반 UI 클릭음 오디션</h1>
+<p class="lead">
+일반 버튼에 반복 사용하기 좋은 짧은 클릭음만 모았습니다.
+Back/Reject/Negative/Next/Power-up처럼 의미가 붙은 소리와 정답용 Bubble 계열은 제외했습니다.
+</p>
+<div class="toolbar"><button class="stop" id="stop">전체 정지</button></div>
+<div id="groups"></div>
+<div class="summary" id="summary">선택한 후보가 없습니다.</div>
+</main>
+<script>
+const groups=[
+  {title:'Clean Tonal',note:'깨끗하고 중립적인 톤. 설정·메뉴 버튼에 무난한 계열.',items:[
+    ['A','Clean Tonal Button 01','audio/click01.ogg'],
+    ['B','Clean Tonal Button 02','audio/click02.ogg']
+  ]},
+  {title:'Menu Navigation Short',note:'짧고 반응성이 빠른 내비게이션 계열. 자주 누르는 버튼용.',items:[
+    ['C','Menu Navigation Short 01','audio/click03.ogg'],
+    ['D','Menu Navigation Short 02','audio/click04.ogg'],
+    ['E','Menu Navigation Short 03','audio/click05.ogg'],
+    ['F','Menu Navigation Short 04','audio/click06.ogg']
+  ]},
+  {title:'Simple Button',note:'버튼 클릭이라는 인지가 선명한 단순 계열.',items:[
+    ['G','Simple Button Synth 01','audio/click07.ogg'],
+    ['H','Simple Button Synth 03','audio/click08.ogg'],
+    ['I','Simple Button2 01','audio/click09.ogg'],
+    ['J','Simple Button2 02','audio/click10.ogg']
+  ]},
+  {title:'Soft Tonal',note:'조금 더 부드럽고 덜 공격적인 톤. 어린이용 캐주얼 UI 후보.',items:[
+    ['K','Soft Tonal 01','audio/click11.ogg'],
+    ['L','Soft Tonal 02','audio/click12.ogg']
+  ]}
+];
+let active=null;
+let selected=null;
+const groupsEl=document.getElementById('groups');
+const summary=document.getElementById('summary');
+function stop(){if(active){active.pause();active.currentTime=0;active=null;}}
+document.getElementById('stop').onclick=stop;
+for(const group of groups){
+  const section=document.createElement('section');
+  section.className='group';
+  section.innerHTML='<h2>'+group.title+'</h2><p class="note">'+group.note+'</p>';
+  const grid=document.createElement('div');
+  grid.className='grid';
+  for(const [code,label,src] of group.items){
+    const card=document.createElement('div');
+    card.className='cand';
+    card.innerHTML='<div class="title">'+code+' · '+label+'</div><small class="file">'+src+'</small><div class="actions"><button class="play">▶ 듣기</button><button class="pick">선택</button></div>';
+    card.querySelector('.play').onclick=()=>{
+      stop();
+      active=new Audio(src);
+      active.volume=.7;
+      void active.play();
+    };
+    card.querySelector('.pick').onclick=()=>{
+      document.querySelectorAll('.cand').forEach(x=>x.classList.remove('selected'));
+      card.classList.add('selected');
+      selected={code,label};
+      summary.textContent='현재 선택: '+code+' · '+label;
+    };
+    grid.appendChild(card);
+  }
+  section.appendChild(grid);
+  groupsEl.appendChild(section);
+}
+</script>
+</body>
+</html>
