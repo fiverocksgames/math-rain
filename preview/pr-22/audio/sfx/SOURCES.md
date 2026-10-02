@@ -31,6 +31,7 @@ Both artifacts were produced by private CI using `ffmpeg -c:a libopus -b:a 64k`.
 | `public/audio/sfx/level-clear.ogg` | level clear | `UIMvmt_Slide Power Up Achievement 02.wav` | `sfx14.ogg` | `4262810ba6c4f899d7d9c3e73bec2242cef1813527230590479014b58e7b87b9` |
 | `public/audio/sfx/game-over.ogg` | game over | `UIMvmt_Game Over Ghostly Haunted 01.wav` | `sfx16.ogg` | `59dc60230fd20db8732043fc270143c7e6e3f38919fd3d580222afe4d9aab53e` |
 | `public/audio/sfx/item-use.ogg` | future item use | `UIMvmt_Futuristic Power PickUp 03.wav` | `sfx21.ogg` | `d94232678ea9835348122293a5a887f1822391c41b1edc5bac549b628dca1070` |
+| `public/audio/sfx/ui-click.ogg` | general UI click | `UIClick_Menu Navigation Short 04.wav` | audition `click06.ogg` | `c7cf5d1702ac92bc7778d289d271a53500359473b92dfa19f65c57e67cdee90b` |
 
 ## Runtime mapping
 
@@ -76,4 +77,7 @@ When lives reach zero, `life-lost` is intentionally suppressed and `game-over` o
 - verified ingress run: `36949752822`
 - destination: `public/auditions/ui-clicks/`
 - contents: audition HTML + 12 OGG derivatives only; no original WAV files
-- lifecycle: temporary; remove after the UI click sound is selected and integrated
+- selected candidate: `F · Menu Navigation Short 04` (`click06.ogg`)
+- runtime destination: `public/audio/sfx/ui-click.ogg`
+- selected clip SHA-256: `c7cf5d1702ac92bc7778d289d271a53500359473b92dfa19f65c57e67cdee90b`
+- lifecycle: audition files remain temporarily for post-integration listening confirmation, then should be removed

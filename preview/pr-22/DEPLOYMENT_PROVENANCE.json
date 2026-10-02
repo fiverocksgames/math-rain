@@ -1,16 +1,16 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "9ac8230dc56f96cc7652efb1d4f9c2c6a80f2b92",
+    "sourceSha":  "61c85e17ef048a417fca94c96821b0a61c5f2e48",
     "workflowName":  "Source CI",
-    "workflowRunId":  "36949928655",
+    "workflowRunId":  "36986760629",
     "runnerName":  "FRD-LAPTOP-01",
-    "createdAt":  "2026-10-02T01:15:41.4013410Z",
+    "createdAt":  "2026-10-02T08:56:44.1251802Z",
     "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "assets/index-ByW3kro-.js",
-                      "sha256":  "83e6a297b8e6c8361d4fbf22aee98f9426f09d69c03f7064015493636cc10333"
+                      "path":  "assets/index-Dm7lD8fm.js",
+                      "sha256":  "5e67cebaf5081e4c2722f246c58c15d9931f3fcb8aacd8fefa884d776e5d9d81"
                   },
                   {
                       "path":  "assets/index-y6aC2IDc.css",
@@ -50,11 +50,15 @@
                   },
                   {
                       "path":  "audio/sfx/SOURCES.md",
-                      "sha256":  "4faec7cf23ba5c2dd5e2518b46b6ba635666806c9741548e7567f16b4279e4b4"
+                      "sha256":  "3fc448c8f5d0ae74468da7bc95dc18d70b8d33bdf8072f575e286a4029dae4aa"
                   },
                   {
                       "path":  "audio/sfx/stage-start.ogg",
                       "sha256":  "2418b9718290f9892ace75b1f389d7b997e024d24cdfe5183a505213145c4550"
+                  },
+                  {
+                      "path":  "audio/sfx/ui-click.ogg",
+                      "sha256":  "c7cf5d1702ac92bc7778d289d271a53500359473b92dfa19f65c57e67cdee90b"
                   },
                   {
                       "path":  "audio/sfx/wrong.ogg",
@@ -114,7 +118,7 @@
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "ad36d175277fc7ccfea893b379346ea938b4eb8d34d176d6f5892701523b8bbb"
+                      "sha256":  "3f6036e7b053f6e0e5061c8e1b95a2a6359139abcac172084deb1ec01bd77f36"
                   },
                   {
                       "path":  "manifest.json",
