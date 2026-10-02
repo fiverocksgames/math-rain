@@ -67,17 +67,14 @@ When lives reach zero, `life-lost` is intentionally suppressed and `game-over` o
 - final PR branch preserves the wrong-answer card shuffle changes from main together with the SFX integration.
 
 
-## Temporary UI click audition
+## UI click selection evidence
 
-- purpose: compare general UI button click candidates before product selection
 - source repository: `fiverocks-dev/assets`
-- source branch head: `23878da897c712f3d4dff164c26b0c697b56b6c1`
-- source artifact: `math-rain-ui-click-audition-v1` / artifact `11203108611`
-- source artifact SHA-256: `d6dc74f69c068ac4c89207cea85c0e18d10423fc5bd88a9542f8fd41f7e822a2`
+- audition source head: `23878da897c712f3d4dff164c26b0c697b56b6c1`
+- audition artifact: `math-rain-ui-click-audition-v1` / artifact `11203108611`
+- audition artifact SHA-256: `d6dc74f69c068ac4c89207cea85c0e18d10423fc5bd88a9542f8fd41f7e822a2`
 - verified ingress run: `36949752822`
-- destination: `public/auditions/ui-clicks/`
-- contents: audition HTML + 12 OGG derivatives only; no original WAV files
 - selected candidate: `F · Menu Navigation Short 04` (`click06.ogg`)
 - runtime destination: `public/audio/sfx/ui-click.ogg`
 - selected clip SHA-256: `c7cf5d1702ac92bc7778d289d271a53500359473b92dfa19f65c57e67cdee90b`
-- lifecycle: audition files remain temporarily for post-integration listening confirmation, then should be removed
+- temporary audition HTML and alternate OGG candidates were removed before merge preparation.
