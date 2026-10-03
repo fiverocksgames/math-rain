@@ -1,20 +1,32 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "c46d1dac864ccb0759e2be7670cc58e3fe6512af",
+    "sourceSha":  "2430c91349d4861ffe07e4d6ebcd4048c94a7dd3",
     "workflowName":  "Source CI",
-    "workflowRunId":  "37001174069",
+    "workflowRunId":  "37102248306",
     "runnerName":  "FRD-LAPTOP-01",
-    "createdAt":  "2026-10-02T11:29:20.9198662Z",
+    "createdAt":  "2026-10-03T06:12:49.8644797Z",
     "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "assets/index-Dg6O0OIm.js",
-                      "sha256":  "f6989c9b99dbbafac6aa58ce5eabb20f679f0de46b28c7cc626e73a6e47d50d1"
+                      "path":  "assets/index-CLiwP2TF.js",
+                      "sha256":  "db12338acd042f86b0d62da3349f50489e52dd1baf39ecd7fef85f943c1df76b"
                   },
                   {
                       "path":  "assets/index-y6aC2IDc.css",
                       "sha256":  "22acb55c689ad710f3d605e275fa660d42d388d6e7b90a8dbd5d873977165666"
+                  },
+                  {
+                      "path":  "audio/bgm/game.ogg",
+                      "sha256":  "d2dc40ab6d9ab344c062e3aca980d08892acb949da070c409183b915c20e2ee0"
+                  },
+                  {
+                      "path":  "audio/bgm/lobby.ogg",
+                      "sha256":  "03cfdc5356c4fc7ec113f31f827759db19b3af660de7de3c3610fea62e441dd9"
+                  },
+                  {
+                      "path":  "audio/bgm/SOURCES.md",
+                      "sha256":  "b21addf683f0a9698a3dbe680e535590f80222c72b484065ece27a7b4d997f52"
                   },
                   {
                       "path":  "audio/sfx/correct-1.ogg",
@@ -66,7 +78,7 @@
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "a70b9f713c27a9831c7992f6a0f2a76b4bdac51f25abc18de2b805cf00a3cd86"
+                      "sha256":  "afe92f27a7e18275f0a159b757d7f13850a07b72c40d4dce87452096e76d5a8f"
                   },
                   {
                       "path":  "manifest.json",
