@@ -1,20 +1,24 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "28a5b5255f40705e422e1ebe8c1863184197d587",
-    "releaseVersion":  "v1.2.1",
+    "sourceSha":  "3a9c49796e9b195d73770df19120aef593851ac4",
+    "releaseVersion":  "v1.2.2",
     "deploymentChannel":  "formal",
     "workflowName":  "Formal Release Comment Control",
-    "workflowRunId":  "37311833959",
-    "createdAt":  "2026-10-05T12:50:23.5688822Z",
+    "workflowRunId":  "37324917417",
+    "createdAt":  "2026-10-05T14:33:30.3623358Z",
     "files":  [
                   {
                       "path":  ".nojekyll",
                       "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
                   },
                   {
-                      "path":  "assets/index-CYocfsMC.js",
-                      "sha256":  "f440012c25c1f6986541e60a5ceefed04d702e072f31d79d1142fec0840aa3d1"
+                      "path":  "assets/index-DcL57ROy.js",
+                      "sha256":  "16b8d1806c512bbcf9d6bb6fb94a738a491cbcac1e6290221240173365ef90c8"
+                  },
+                  {
+                      "path":  "assets/index-DS26aGAD.js",
+                      "sha256":  "06bc2d0626563a780c70a36efd91b717bfdc52e3afb58f59452b49f08e34f2ad"
                   },
                   {
                       "path":  "assets/index-y6aC2IDc.css",
@@ -81,8 +85,12 @@
                       "sha256":  "66ec8aa107d564b1e245e7cf314767fbca78ff8b3328a8cdbd7c01f214036f3f"
                   },
                   {
+                      "path":  "favicon.svg",
+                      "sha256":  "c4b86c9c94bee9809c886336c1d296a3515a0d56d85448c3e6f2aabfd8a59817"
+                  },
+                  {
                       "path":  "index.html",
-                      "sha256":  "183ca98b5aa863db896e6d95a7002473f0e0e5a972229ecdd924c863b0f3d339"
+                      "sha256":  "baf1063d32b19043fcb463282e2b6fba9086821a285dca3304c03cb98dc44eb7"
                   },
                   {
                       "path":  "manifest.json",
