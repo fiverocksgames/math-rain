@@ -1,0 +1,100 @@
+﻿{
+    "schemaVersion":  1,
+    "sourceRepository":  "fiverocks-dev/math-rain",
+    "sourceSha":  "3c5c0640058a869af93047d86b9bf62d4b9f38a2",
+    "workflowName":  "Source CI",
+    "workflowRunId":  "37281314854",
+    "runnerName":  "FRD-LAPTOP-01",
+    "createdAt":  "2026-10-05T08:04:57.8889141Z",
+    "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
+    "files":  [
+                  {
+                      "path":  "assets/index-DPiYrcbq.js",
+                      "sha256":  "282b5de55a1c7b3c662647c06e10d1c6137951d8dd41c3023651baa970354df2"
+                  },
+                  {
+                      "path":  "assets/index-y6aC2IDc.css",
+                      "sha256":  "22acb55c689ad710f3d605e275fa660d42d388d6e7b90a8dbd5d873977165666"
+                  },
+                  {
+                      "path":  "audio/bgm/game.ogg",
+                      "sha256":  "d2dc40ab6d9ab344c062e3aca980d08892acb949da070c409183b915c20e2ee0"
+                  },
+                  {
+                      "path":  "audio/bgm/lobby.ogg",
+                      "sha256":  "03cfdc5356c4fc7ec113f31f827759db19b3af660de7de3c3610fea62e441dd9"
+                  },
+                  {
+                      "path":  "audio/bgm/SOURCES.md",
+                      "sha256":  "b21addf683f0a9698a3dbe680e535590f80222c72b484065ece27a7b4d997f52"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-1.ogg",
+                      "sha256":  "41bce5a6a169ba846055c239387c7c3aef54ee58e1b2fa3e2931d82481e4ef00"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-2.ogg",
+                      "sha256":  "1f297246c66b20ab3f5cefe383e47b66cc77d3ae1bdc3f1084c6e79d5dc6e0c3"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-3.ogg",
+                      "sha256":  "eae2d89bcb7c4c69272649059d8ee7ed14ced85a02acb35124afe2652c82717b"
+                  },
+                  {
+                      "path":  "audio/sfx/correct-4.ogg",
+                      "sha256":  "93723d0710b8a8b8b451f742789ad6d7718f7382c46c566be9701507a04a4cad"
+                  },
+                  {
+                      "path":  "audio/sfx/game-over.ogg",
+                      "sha256":  "59dc60230fd20db8732043fc270143c7e6e3f38919fd3d580222afe4d9aab53e"
+                  },
+                  {
+                      "path":  "audio/sfx/item-use.ogg",
+                      "sha256":  "d94232678ea9835348122293a5a887f1822391c41b1edc5bac549b628dca1070"
+                  },
+                  {
+                      "path":  "audio/sfx/level-clear.ogg",
+                      "sha256":  "4262810ba6c4f899d7d9c3e73bec2242cef1813527230590479014b58e7b87b9"
+                  },
+                  {
+                      "path":  "audio/sfx/life-lost.ogg",
+                      "sha256":  "1afec94198a7bae389484ab75f1302bedce660f9a8a1e6ac0b3ad531763cb448"
+                  },
+                  {
+                      "path":  "audio/sfx/SOURCES.md",
+                      "sha256":  "0a202c4dbacb84b84c3dcd7df8b7fc4f5b6744c24daba6c75abfac2ca1604c15"
+                  },
+                  {
+                      "path":  "audio/sfx/stage-start.ogg",
+                      "sha256":  "2418b9718290f9892ace75b1f389d7b997e024d24cdfe5183a505213145c4550"
+                  },
+                  {
+                      "path":  "audio/sfx/ui-click.ogg",
+                      "sha256":  "c7cf5d1702ac92bc7778d289d271a53500359473b92dfa19f65c57e67cdee90b"
+                  },
+                  {
+                      "path":  "audio/sfx/wrong.ogg",
+                      "sha256":  "66ec8aa107d564b1e245e7cf314767fbca78ff8b3328a8cdbd7c01f214036f3f"
+                  },
+                  {
+                      "path":  "index.html",
+                      "sha256":  "fed7e2b49782b5ede7413e56dd0f4f13e9be161613b854897a846b1c9024f26c"
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "sha256":  "625b90f93ee4e248ecfdd235428333e0a46f8888dd86954bf08d6c3e646a35e0"
+                  },
+                  {
+                      "path":  "og/math-rain-share.jpg",
+                      "sha256":  "ecd21f517a95bb9faab35118a0e4b8261b0031a2794ada9116ba6f8f1aa9a136"
+                  },
+                  {
+                      "path":  "og/math-rain-share-v3.jpg",
+                      "sha256":  "3e9b006ac9d578a0784a00a6238fbf43b680a705d3840e183168d3493d72648e"
+                  },
+                  {
+                      "path":  "sw.js",
+                      "sha256":  "a77ab359ef0aba876d24000a7eac2b7539eeb45625a4229028d63774dce4d50b"
+                  }
+              ]
+}
