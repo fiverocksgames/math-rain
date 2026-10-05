@@ -1,16 +1,16 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "a2403b7ae86daf16b6f0eba86eedc78e0d515333",
+    "sourceSha":  "1081154724113ab83d271dbcaabeab96d7432f04",
     "workflowName":  "Source CI",
-    "workflowRunId":  "37311787770",
+    "workflowRunId":  "37323112483",
     "runnerName":  "FRD-LAPTOP-01",
-    "createdAt":  "2026-10-05T12:47:10.3525326Z",
+    "createdAt":  "2026-10-05T14:15:40.3522303Z",
     "toolchain":  "react-19.2.8 + typescript-6.0.3 + vite-8.2.2",
     "files":  [
                   {
-                      "path":  "assets/index-hqhlS8aC.js",
-                      "sha256":  "8176ebc52fc76b68712823e56a85ff0e12f36263d84b0cf48319530d2c42259d"
+                      "path":  "assets/index-DTrGLzjc.js",
+                      "sha256":  "246ab325e106bcaf0333288eebbc1bdb1cd5310a229475fbeace3770ccb0a50c"
                   },
                   {
                       "path":  "assets/index-y6aC2IDc.css",
@@ -77,8 +77,12 @@
                       "sha256":  "66ec8aa107d564b1e245e7cf314767fbca78ff8b3328a8cdbd7c01f214036f3f"
                   },
                   {
+                      "path":  "favicon.svg",
+                      "sha256":  "c4b86c9c94bee9809c886336c1d296a3515a0d56d85448c3e6f2aabfd8a59817"
+                  },
+                  {
                       "path":  "index.html",
-                      "sha256":  "27b09d497474311f5eb4b6f179879d835b90f7249a990b5efcbb9478db50618b"
+                      "sha256":  "acaf65948e1c2f55b56862ebc915a74b39f7cb66d1679f17b3c3a8299d12da3d"
                   },
                   {
                       "path":  "manifest.json",
