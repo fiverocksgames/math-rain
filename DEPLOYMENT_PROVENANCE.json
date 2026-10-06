@@ -1,24 +1,20 @@
 ﻿{
     "schemaVersion":  1,
     "sourceRepository":  "fiverocks-dev/math-rain",
-    "sourceSha":  "3a9c49796e9b195d73770df19120aef593851ac4",
-    "releaseVersion":  "v1.2.2",
+    "sourceSha":  "cf95c9a8c16504c5e80632a41a072d3e23657a53",
+    "releaseVersion":  "v1.2.3",
     "deploymentChannel":  "formal",
     "workflowName":  "Formal Release Comment Control",
-    "workflowRunId":  "37324917417",
-    "createdAt":  "2026-10-05T14:33:30.3623358Z",
+    "workflowRunId":  "37391989468",
+    "createdAt":  "2026-10-06T00:32:53.6763711Z",
     "files":  [
                   {
                       "path":  ".nojekyll",
                       "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
                   },
                   {
-                      "path":  "assets/index-DcL57ROy.js",
-                      "sha256":  "16b8d1806c512bbcf9d6bb6fb94a738a491cbcac1e6290221240173365ef90c8"
-                  },
-                  {
-                      "path":  "assets/index-DS26aGAD.js",
-                      "sha256":  "06bc2d0626563a780c70a36efd91b717bfdc52e3afb58f59452b49f08e34f2ad"
+                      "path":  "assets/index-Cod6vGru.js",
+                      "sha256":  "94dbcd82a6d790754a73919f7180711158516188bb76266a93b00613a019dae8"
                   },
                   {
                       "path":  "assets/index-y6aC2IDc.css",
@@ -90,7 +86,7 @@
                   },
                   {
                       "path":  "index.html",
-                      "sha256":  "baf1063d32b19043fcb463282e2b6fba9086821a285dca3304c03cb98dc44eb7"
+                      "sha256":  "cbf1359162f7373b2571dd0f1b9dbc39b944c23239e3ae49ff23dcc64ab9c43a"
                   },
                   {
                       "path":  "manifest.json",
